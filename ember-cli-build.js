@@ -37,9 +37,7 @@ module.exports = function(defaults) {
             enabled: EmberApp.env() === 'production'
         },
         sassOptions: {
-            includePaths: [
-                'app/styles'
-            ]
+            includePaths: ["app/styles"]
         },
         emberWowza: {
             // Config for video recorder config
